@@ -1,0 +1,12 @@
+.error {
+    color: red;
+}
+
+input[type= "text"],
+input[type= "text"] {
+display: block;
+width: 200px;
+padding: 0.4rem 0.8rem;
+border-radius: 1rem;
+border: 0.3px solid gray;
+}

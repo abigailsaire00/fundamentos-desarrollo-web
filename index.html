@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
     <h1>Iniciar sesión</h1>
-    <form>
-        <label for="nombre">Nombre Completo</label>
-        <input type="text" id="nombre">
+    <form id="formulario">
+        <label for="nombre">Nombre Completo</label><br>
+        <input type="text"
+         id="nombre"
+         placeholder="Escriba un nombre cualquiera"/><br>
 
-        <label for="correo">Correo electrónico</label>
-        <input type="text" id="correo">
+         <span class="error" id="error-nombre"></span>
 
-        <input type="submit" value="Iniciar sesión">
+        <label for="correo">Correo electrónico</label><br>
+        <input type="text" 
+         id="correo"
+         placeholder="Escriba un correo cualquiera"/>
+
+         <span class="error" id="error-correo"></span>
+
+
+        <input type="submit" id= "boton-envio" value="Iniciar sesión"><br>
     </form>
     
     <script src="public/js/main.js"></script>
